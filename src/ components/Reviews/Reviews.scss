@@ -1,0 +1,15 @@
+.Reviews {
+	display: flex;
+	gap: 20px;
+	position: relative;
+	justify-content: center;
+}
+.Reviews_block:nth-child(even) {
+	margin: 10% 15px 0 15px;
+}
+.reviews-title {
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}

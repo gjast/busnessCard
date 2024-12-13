@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@mixin rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+}
+:root {
+	--bg-color: #8b7a4f37;
+	--text-color: #000;
+	--primary-color: #000;
+}
+body {
+	@include rubik;
+	margin: 0;
+	position: relative; 
+}
+
+body::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url("./img/goldA.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	filter: blur(20px); 
+	z-index: -1;
+	background-attachment: fixed;
+}

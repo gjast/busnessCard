@@ -1,0 +1,16 @@
+.Stack_block {
+	display: flex;
+	margin: 1rem 0;
+	white-space: nowrap; 
+  transition: transform 0.5s ease;
+  overflow-x: hidden;  
+}
+.Stack_block::-webkit-scrollbar {
+	width: 0;
+}
+.Stack {
+	h1 {
+		text-align: center;
+	}
+	overflow: hidden;
+}
