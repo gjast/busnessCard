@@ -4,6 +4,10 @@
 	position: relative;
 	justify-content: center;
 }
+
+.Reviews_block {
+	width: 25vw;
+}
 .Reviews_block:nth-child(even) {
 	margin: 10% 15px 0 15px;
 }
@@ -12,4 +16,14 @@
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, 0);
+}
+
+@media screen and (max-width: 662px) {
+	.Reviews {
+		display: grid;
+		flex-direction: column;
+	}
+	.Reviews_block {
+		width: 70vw;
+	}
 }

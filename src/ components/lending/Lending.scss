@@ -10,6 +10,37 @@
   margin-top: 15px;
 }
 
+
+
+.logo_container {
+  display: flex;
+  gap: 10px;
+  align-items: center; 
+}
+
+.hiden {
+  animation: hiden 0.5s ease-in;
+}
+@keyframes hiden {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.notHiden {
+  animation: Nothiden 0.5s ease-in;
+}
+@keyframes Nothiden {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .logo_img {
   border-radius: 50%;
   max-width: 30vw;
